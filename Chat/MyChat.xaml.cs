@@ -179,7 +179,7 @@ namespace Chat
             lb_Chat.Items.Add($"{s}:");
 
             var image1 = new BitmapImage();
-            File.WriteAllBytes("D:\\file1.png", byte.Parse(s));
+            //File.WriteAllBytes("D:\\file1.png", byte.Parse(s));
             File.Delete("D:\\file1.png");
             File.Delete("file1.png");/*
             using (var mem = new MemoryStream(b))
